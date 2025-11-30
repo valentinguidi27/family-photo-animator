@@ -59,7 +59,7 @@ def main():
 
                     # Call the AI Model
                     output = replicate.run(
-                        "stability-ai/stable-video-diffusion:39ed52f2a78e934b3ba6e2a89f5b1c712de7dfea535525255b1aa35c5565e08b",
+                        "stability-ai/stable-video-diffusion:3f0457e4619daac51203dedb472816fd4af51f3149fa7a9e0b5ffcf1b8172438",
                         input={
                             "input_image": open(tmp_path, "rb"),
                             "video_length": "25_frames_with_svd_xt",
